@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "productName": "Formal shirts",
+      "description": "Product description goes here",
+      "rating": 5,
+      "price": 120,
+      "productImg": "http://localhost:4200/assets/1.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "productName": "Casual shirts",
+      "description": "Product description goes here",
+      "rating": 3,
+      "price": 120,
+      "productImg": "http://localhost:4200/assets/2.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "productName": "Coat Paint Three Pice",
+      "description": "Product description goes here",
+      "rating": 3,
+      "price": 34343,
+      "productImg": "http://localhost:4200/assets/3.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "productName": "Polo Tshirts",
+      "description": "Product description goes here",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/5.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "productName": "Golf Tshirt",
+      "description": "Product description goes here",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/6.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "productName": "Suit Salwar",
+      "description": "Product description goes here",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/7.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 8,
+      "categoryId": 5,
+      "productName": "Sport Soes",
+      "description": "Product description goes here",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:4200/assets/8.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Tshirts"
+    },
+    {
+      "id": 2,
+      "categoryName": "Shirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "Coat Pant"
+    },
+    {
+      "id": 4,
+      "categoryName": "Suit Salwar"
+    },
+    {
+      "id": 5,
+      "categoryName": "Shoes"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

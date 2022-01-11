@@ -1,13 +1,15 @@
 {
-  "name": "ashushop",
+  "name": "sli",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build --prod"
+
   },
   "private": true,
   "dependencies": {
@@ -19,20 +21,26 @@
     "@angular/platform-browser": "~9.1.6",
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
-    "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
+    "express":"4.17.2",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "json": "^11.0.0",
     "popper": "^1.0.1",
     "rxjs": "~6.5.4",
+    "server": "^1.0.37",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.5",
+    "zone.js": "~0.10.2",
     "@angular/cli": "~9.1.5",
     "@angular/compiler-cli": "~9.1.6",
-    "@types/node": "^12.11.1",
+    "typescript": "~3.8.3"
+
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.901.15",
+    
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -43,7 +51,12 @@
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~3.8.3"
+    "tslint": "~6.1.0"
+    
+  },
+  "engines": {
+    "node": "14.7.6",
+    "npm": "6.14.15"
   }
+
 }

@@ -83,6 +83,18 @@
       "isAvailable": true,
       "color": "red",
       "reviews": 10
+    },
+    {
+      "id": 11,
+      "categoryId": "shirt",
+      "productName": "shirt",
+      "description": "",
+      "rating": "",
+      "price": "",
+      "productImg": "",
+      "isAvailable": 1,
+      "color": "",
+      "reviews": "shirt"
     }
   ],
   "categories": [
